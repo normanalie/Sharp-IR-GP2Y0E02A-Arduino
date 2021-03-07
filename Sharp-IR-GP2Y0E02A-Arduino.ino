@@ -1,6 +1,6 @@
 //!!! Le capteur fonctione en 3.3v !!!
 int analogPin = A0;
-int switchModePin = 0;
+int switchModePin = 2;
 int reading;
 float distance; //−0.1441x+68.3213
 
