@@ -18,5 +18,5 @@ void  loop(){
     reading = analogRead(analogPin);
     distance = -0.1441 * reading +68.3213;
     Serial.println(distance);
-    delay(10); //Limit number of value
+    delay(40); //Limit number of value
 }
